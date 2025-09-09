@@ -1,0 +1,40 @@
+hc:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - joint_1_s
+    - joint_3_u
+    - joint_2_l
+    - joint_4_r
+    - joint_5_b
+    - joint_6_t
+  gains:
+    joint_1_s:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    joint_3_u:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    joint_2_l:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    joint_4_r:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    joint_5_b:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    joint_6_t:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
