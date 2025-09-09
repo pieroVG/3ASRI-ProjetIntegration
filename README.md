@@ -3,6 +3,7 @@ http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/set
 
 ```
 mkdir catkin_ws
+. /opt/ros/noetic/setup.bash
 catkin build
 . devel/setup.bash
 ```
