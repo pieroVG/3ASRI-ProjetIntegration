@@ -1,2 +1,0 @@
-motoman/motoman
-/home/etudiant/catkin_ws/devel/.private/motoman/cmake.lock /home/etudiant/catkin_ws/devel/./cmake.lock
