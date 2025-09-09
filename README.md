@@ -8,6 +8,9 @@ catkin build
 . devel/setup.bash
 ```
 Refaire les setup.bash après avoir installer hc10_moveit_config
+```
+source devel/setup.bash
+```
 
 
 https://moveit.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_
