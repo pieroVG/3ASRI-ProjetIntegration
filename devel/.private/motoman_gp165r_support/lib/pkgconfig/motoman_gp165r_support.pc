@@ -1,8 +1,0 @@
-prefix=/home/etudiant/catkin_ws/devel/.private/motoman_gp165r_support
-
-Name: motoman_gp165r_support
-Description: Description of motoman_gp165r_support
-Version: 0.3.5
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

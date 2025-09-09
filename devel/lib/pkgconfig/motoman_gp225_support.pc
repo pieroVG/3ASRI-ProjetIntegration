@@ -1,1 +1,0 @@
-/home/etudiant/catkin_ws/devel/.private/motoman_gp225_support/lib/pkgconfig/motoman_gp225_support.pc

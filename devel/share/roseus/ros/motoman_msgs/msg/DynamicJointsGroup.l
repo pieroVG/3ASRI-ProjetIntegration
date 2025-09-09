@@ -1,1 +1,0 @@
-/home/etudiant/catkin_ws/devel/.private/motoman_msgs/share/roseus/ros/motoman_msgs/msg/DynamicJointsGroup.l
