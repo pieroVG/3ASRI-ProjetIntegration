@@ -7,7 +7,7 @@ mkdir catkin_ws
 catkin build
 . devel/setup.bash
 ```
-feur
+
 
 https://moveit.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_
 python_interface_tutorial.html
