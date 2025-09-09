@@ -1,13 +1,18 @@
 # 3ASRI-ProjetIntegration
 http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html
 
-Instruction
+### Instruction
 ```
 git clone https://github.com/pieroVG/3ASRI-ProjetIntegration.git
 cd 3ASRI-ProjetIntegration
 . /opt/ros/noetic/setup.bash
 catkin build
 . devel/setup.bash
+```
+
+Test pour vérifier si c'est bien installé :
+```
+roslaunch hc10_moveit_config demo.launch 
 ```
 
 Refaire les setup.bash après avoir installer hc10_moveit_config si erreur
