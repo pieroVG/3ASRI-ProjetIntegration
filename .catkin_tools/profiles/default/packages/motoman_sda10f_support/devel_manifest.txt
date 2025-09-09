@@ -1,0 +1,5 @@
+motoman/motoman_sda10f_support
+/home/etudiant/catkin_ws/devel/.private/motoman_sda10f_support/cmake.lock /home/etudiant/catkin_ws/devel/./cmake.lock
+/home/etudiant/catkin_ws/devel/.private/motoman_sda10f_support/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig.cmake /home/etudiant/catkin_ws/devel/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_sda10f_support/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig-version.cmake /home/etudiant/catkin_ws/devel/share/motoman_sda10f_support/cmake/motoman_sda10f_supportConfig-version.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_sda10f_support/lib/pkgconfig/motoman_sda10f_support.pc /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_sda10f_support.pc

@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/motoman_resources/lib/pkgconfig/motoman_resources.pc

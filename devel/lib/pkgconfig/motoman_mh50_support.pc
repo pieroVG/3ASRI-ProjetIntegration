@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/motoman_mh50_support/lib/pkgconfig/motoman_mh50_support.pc

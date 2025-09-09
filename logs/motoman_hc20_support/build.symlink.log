@@ -1,0 +1,3 @@
+Symlinking /home/etudiant/catkin_ws/devel/share/motoman_hc20_support/cmake/motoman_hc20_supportConfig.cmake
+Symlinking /home/etudiant/catkin_ws/devel/share/motoman_hc20_support/cmake/motoman_hc20_supportConfig-version.cmake
+Symlinking /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_hc20_support.pc

@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/install
+
+Name: motoman_gp12_support
+Description: Description of motoman_gp12_support
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

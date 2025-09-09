@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/motoman_ms210_support/lib/pkgconfig/motoman_ms210_support.pc

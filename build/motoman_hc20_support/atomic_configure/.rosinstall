@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/etudiant/catkin_ws/devel/.private/motoman_hc20_support/setup.sh

@@ -1,0 +1,5 @@
+motoman/motoman_gp12_support
+/home/etudiant/catkin_ws/devel/.private/motoman_gp12_support/cmake.lock /home/etudiant/catkin_ws/devel/./cmake.lock
+/home/etudiant/catkin_ws/devel/.private/motoman_gp12_support/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig.cmake /home/etudiant/catkin_ws/devel/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_gp12_support/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig-version.cmake /home/etudiant/catkin_ws/devel/share/motoman_gp12_support/cmake/motoman_gp12_supportConfig-version.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_gp12_support/lib/pkgconfig/motoman_gp12_support.pc /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_gp12_support.pc

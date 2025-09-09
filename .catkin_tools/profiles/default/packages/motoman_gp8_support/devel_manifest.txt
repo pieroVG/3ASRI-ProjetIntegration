@@ -1,0 +1,5 @@
+motoman/motoman_gp8_support
+/home/etudiant/catkin_ws/devel/.private/motoman_gp8_support/cmake.lock /home/etudiant/catkin_ws/devel/./cmake.lock
+/home/etudiant/catkin_ws/devel/.private/motoman_gp8_support/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig-version.cmake /home/etudiant/catkin_ws/devel/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig-version.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_gp8_support/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig.cmake /home/etudiant/catkin_ws/devel/share/motoman_gp8_support/cmake/motoman_gp8_supportConfig.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_gp8_support/lib/pkgconfig/motoman_gp8_support.pc /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_gp8_support.pc

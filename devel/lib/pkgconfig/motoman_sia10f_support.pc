@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/motoman_sia10f_support/lib/pkgconfig/motoman_sia10f_support.pc

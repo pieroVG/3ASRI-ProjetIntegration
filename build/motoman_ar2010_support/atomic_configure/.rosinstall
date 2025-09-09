@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/etudiant/catkin_ws/devel/.private/motoman_ar2010_support/setup.sh

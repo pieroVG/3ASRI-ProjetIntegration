@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/install
+
+Name: motoman_driver
+Description: Description of motoman_driver
+Version: 0.3.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs control_msgs industrial_msgs industrial_robot_client industrial_utils motoman_msgs roscpp sensor_msgs simple_message std_msgs std_srvs trajectory_msgs urdf

@@ -1,0 +1,1 @@
+/home/etudiant/catkin_ws/devel/.private/motoman_up50n_support/share/motoman_up50n_support/cmake/motoman_up50n_supportConfig-version.cmake

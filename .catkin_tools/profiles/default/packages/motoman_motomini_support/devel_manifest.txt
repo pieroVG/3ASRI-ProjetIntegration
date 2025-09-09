@@ -1,0 +1,5 @@
+motoman/motoman_motomini_support
+/home/etudiant/catkin_ws/devel/.private/motoman_motomini_support/cmake.lock /home/etudiant/catkin_ws/devel/./cmake.lock
+/home/etudiant/catkin_ws/devel/.private/motoman_motomini_support/share/motoman_motomini_support/cmake/motoman_motomini_supportConfig-version.cmake /home/etudiant/catkin_ws/devel/share/motoman_motomini_support/cmake/motoman_motomini_supportConfig-version.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_motomini_support/share/motoman_motomini_support/cmake/motoman_motomini_supportConfig.cmake /home/etudiant/catkin_ws/devel/share/motoman_motomini_support/cmake/motoman_motomini_supportConfig.cmake
+/home/etudiant/catkin_ws/devel/.private/motoman_motomini_support/lib/pkgconfig/motoman_motomini_support.pc /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_motomini_support.pc

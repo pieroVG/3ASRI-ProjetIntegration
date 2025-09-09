@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/devel/.private/motoman_gp20hl_support
+
+Name: motoman_gp20hl_support
+Description: Description of motoman_gp20hl_support
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

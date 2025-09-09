@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/devel/.private/motoman_sia50_support
+
+Name: motoman_sia50_support
+Description: Description of motoman_sia50_support
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

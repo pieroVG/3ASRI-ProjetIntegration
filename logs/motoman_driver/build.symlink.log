@@ -1,0 +1,14 @@
+Symlinking /home/etudiant/catkin_ws/devel/share/motoman_driver/cmake/motoman_driverConfig.cmake
+Symlinking /home/etudiant/catkin_ws/devel/share/motoman_driver/cmake/motoman_driverConfig-version.cmake
+Symlinking /home/etudiant/catkin_ws/devel/lib/libmotoman_industrial_robot_client_bswap.so
+Symlinking /home/etudiant/catkin_ws/devel/lib/libmotoman_simple_message.so
+Symlinking /home/etudiant/catkin_ws/devel/lib/libmotoman_simple_message_bswap.so
+Symlinking /home/etudiant/catkin_ws/devel/lib/libmotoman_industrial_robot_client.so
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/motion_streaming_interface_bswap
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/io_relay
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/robot_state_bswap
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/motion_streaming_interface
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/motoman_driver_joint_trajectory_action
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/io_relay_bswap
+Symlinking /home/etudiant/catkin_ws/devel/lib/motoman_driver/robot_state
+Symlinking /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_driver.pc

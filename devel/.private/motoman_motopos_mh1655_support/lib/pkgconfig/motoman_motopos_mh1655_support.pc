@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/devel/.private/motoman_motopos_mh1655_support
+
+Name: motoman_motopos_mh1655_support
+Description: Description of motoman_motopos_mh1655_support
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,3 @@
+Symlinking /home/etudiant/catkin_ws/devel/share/motoman_gp110_support/cmake/motoman_gp110_supportConfig.cmake
+Symlinking /home/etudiant/catkin_ws/devel/share/motoman_gp110_support/cmake/motoman_gp110_supportConfig-version.cmake
+Symlinking /home/etudiant/catkin_ws/devel/lib/pkgconfig/motoman_gp110_support.pc

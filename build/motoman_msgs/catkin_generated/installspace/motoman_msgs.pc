@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/install
+
+Name: motoman_msgs
+Description: Description of motoman_msgs
+Version: 0.3.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: industrial_msgs message_runtime std_msgs trajectory_msgs

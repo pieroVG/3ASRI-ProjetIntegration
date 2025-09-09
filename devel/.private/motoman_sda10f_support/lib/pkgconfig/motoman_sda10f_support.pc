@@ -1,0 +1,8 @@
+prefix=/home/etudiant/catkin_ws/devel/.private/motoman_sda10f_support
+
+Name: motoman_sda10f_support
+Description: Description of motoman_sda10f_support
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
