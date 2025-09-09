@@ -3,8 +3,8 @@ http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/set
 
 Instruction
 ```
-mkdir catkin_ws
 git clone https://github.com/pieroVG/3ASRI-ProjetIntegration.git
+cd 3ASRI-ProjetIntegration.git
 . /opt/ros/noetic/setup.bash
 catkin build
 . devel/setup.bash
@@ -16,8 +16,7 @@ source devel/setup.bash
 ```
 
 
-https://moveit.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_
-python_interface_tutorial.html
+https://moveit.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html
 
 
 ## Tutoriel pour la génération de trajectoire
