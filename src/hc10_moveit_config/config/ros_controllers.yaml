@@ -1,5 +1,5 @@
 hc:
-  type: position_controllers/JointTrajectoryController
+  type: effort_controllers/JointTrajectoryController
   joints:
     - joint_1_s
     - joint_3_u
@@ -8,33 +8,11 @@ hc:
     - joint_5_b
     - joint_6_t
   gains:
-    joint_1_s:
-      p: 100
-      d: 1
-      i: 1
-      i_clamp: 1
-    joint_3_u:
-      p: 100
-      d: 1
-      i: 1
-      i_clamp: 1
-    joint_2_l:
-      p: 100
-      d: 1
-      i: 1
-      i_clamp: 1
-    joint_4_r:
-      p: 100
-      d: 1
-      i: 1
-      i_clamp: 1
-    joint_5_b:
-      p: 100
-      d: 1
-      i: 1
-      i_clamp: 1
-    joint_6_t:
-      p: 100
-      d: 1
-      i: 1
-      i_clamp: 1
+    joint_1_s: { p: 15000, i: 0.01, d: 50}
+    joint_2_l: { p: 15000, i: 0.01, d: 50}
+    joint_3_u: { p: 15000, i: 0.01, d: 50}
+    joint_4_r: { p: 15000, i: 0.01, d: 50}
+    joint_5_b: { p: 10000, i: 0.01, d: 50}
+    joint_6_t: { p: 5000, i: 0.01, d: 50}
+    
+  
