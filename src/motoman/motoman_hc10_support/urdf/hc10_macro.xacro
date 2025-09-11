@@ -2,7 +2,8 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:macro name="motoman_hc10" params="prefix">
     <xacro:include filename="$(find motoman_resources)/urdf/common_materials.xacro"/>
-
+    
+    
     <!-- link list -->
     <link name="world"/>
     
@@ -216,5 +217,95 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint>
+    
+    <xacro:macro name="control" params="joint">
+        <transmission name="${joint}_transmission">
+            <type>transmission_interface/SimpleTransmission</type>
+            <!-- The EffortJointInterface works best with Gazebo using torques to actuate the joints -->
+            <joint name="${joint}">
+                <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="${joint}_motor">
+                <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+                <mechanicalReduction>1</mechanicalReduction>
+            </actuator>
+        </transmission>
+    </xacro:macro>
+    
+    <gazebo>
+      <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+        <robotNamespace>/${prefix}</robotNamespace>
+        <legacyModeNS>true</legacyModeNS>
+      </plugin>
+    </gazebo>
+    
+	<!-- Transmissions: PositionJointInterface simple -->
+	<transmission name="${prefix}trans_joint_1_s">
+	  <type>transmission_interface/SimpleTransmission</type>
+	  <joint name="${prefix}joint_1_s">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+	  </joint>
+	  <actuator name="${prefix}motor_1_s">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		<mechanicalReduction>1</mechanicalReduction>
+	  </actuator>
+	</transmission>
+
+	<transmission name="${prefix}trans_joint_2_l">
+	  <type>transmission_interface/SimpleTransmission</type>
+	  <joint name="${prefix}joint_2_l">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+	  </joint>
+	  <actuator name="${prefix}motor_2_l">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		<mechanicalReduction>1</mechanicalReduction>
+	  </actuator>
+	</transmission>
+
+	<transmission name="${prefix}trans_joint_3_u">
+	  <type>transmission_interface/SimpleTransmission</type>
+	  <joint name="${prefix}joint_3_u">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+	  </joint>
+	  <actuator name="${prefix}motor_3_u">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		<mechanicalReduction>1</mechanicalReduction>
+	  </actuator>
+	</transmission>
+
+	<transmission name="${prefix}trans_joint_4_r">
+	  <type>transmission_interface/SimpleTransmission</type>
+	  <joint name="${prefix}joint_4_r">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+	  </joint>
+	  <actuator name="${prefix}motor_4_r">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		<mechanicalReduction>1</mechanicalReduction>
+	  </actuator>
+	</transmission>
+
+	<transmission name="${prefix}trans_joint_5_b">
+	  <type>transmission_interface/SimpleTransmission</type>
+	  <joint name="${prefix}joint_5_b">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+	  </joint>
+	  <actuator name="${prefix}motor_5_b">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		<mechanicalReduction>1</mechanicalReduction>
+	  </actuator>
+	</transmission>
+
+	<transmission name="${prefix}trans_joint_6_t">
+	  <type>transmission_interface/SimpleTransmission</type>
+	  <joint name="${prefix}joint_6_t">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+	  </joint>
+	  <actuator name="${prefix}motor_6_t">
+		<hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+		<mechanicalReduction>1</mechanicalReduction>
+	  </actuator>
+	</transmission>
+
+
   </xacro:macro>
 </robot>
