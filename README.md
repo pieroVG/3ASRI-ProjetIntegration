@@ -23,6 +23,10 @@ source devel/setup.bash
 ## Tutoriel pour la génération de trajectoire
 https://moveit.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html
 
+Lancer le modèle du robot sous gazebo :
+```
+roslaunch hc10_moveit_config demo_gazebo.launch 
+```
 
 ## Tutoriel d'intégration MoveIt dans Gazebo
 https://moveit.github.io/moveit_tutorials/doc/gazebo_simulation/gazebo_simulation.html
