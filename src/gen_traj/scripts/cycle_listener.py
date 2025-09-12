@@ -3,7 +3,10 @@
 
 # . devel/setup.bash
 # chmod +x src/gen_traj/scripts/cycle_listener.py
+# 
+# roslaunch hc10_moveit_config demo_gazebo.launch
 # rosrun gen_traj cycle_listener.py
+# rosrun gen_traj gen_traj.py
 # 
 # Topics listeners : 
 #   /look_at_point_update : geometry_msgs/Point
