@@ -3,7 +3,7 @@ http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/set
 
 ### Instruction
 ```
-git clone https://github.com/pieroVG/3ASRI-ProjetIntegration.git
+git clone -b generation_traj https://github.com/pieroVG/3ASRI-ProjetIntegration.git
 cd 3ASRI-ProjetIntegration
 . /opt/ros/noetic/setup.bash
 catkin build
