@@ -341,3 +341,63 @@ You can start planning now!
 [INFO] [1757608114.695495, 0.000000]: Calling service /gazebo/spawn_urdf_model
 [INFO] [1757608115.473565, 0.000000]: Spawn status: SpawnModel: Successfully spawned entity
 [INFO] [1757608115.474564, 0.000000]: Unpausing physics
+[0m[ INFO] [1757608113.777609703]: rviz version 1.14.14[0m
+[0m[ INFO] [1757608113.777630266]: compiled against Qt version 5.12.8[0m
+[0m[ INFO] [1757608113.777635089]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1757608113.795935181]: Forcing OpenGl version 0.[0m
+[0m[ INFO] [1757608114.037317334]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1757608114.037415399]: OpenGL device: llvmpipe (LLVM 12.0.0, 256 bits)[0m
+[0m[ INFO] [1757608114.037429454]: OpenGl version: 3,1 (GLSL 1,4).[0m
+[0m[ INFO] [1757608119.145692529, 2.230000000]: Loading robot model 'motoman_hc10'...[0m
+[0m[ INFO] [1757608119.145718149, 2.230000000]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[0m[ INFO] [1757608119.404403180, 2.415000000]: Starting planning scene monitor[0m
+[0m[ INFO] [1757608119.408887403, 2.420000000]: Listening to '/move_group/monitored_planning_scene'[0m
+[0m[ INFO] [1757608119.574822457, 2.506000000]: Constructing new MoveGroup connection for group 'hc10_arm' in namespace ''[0m
+[0m[ INFO] [1757608120.836325646, 3.245000000]: Ready to take commands for planning group hc10_arm.[0m
+[INFO] [1757608113.906106, 0.000000]: Controller Spawner: Waiting for service controller_manager/load_controller
+[INFO] [1757608115.728931, 0.000000]: Controller Spawner: Waiting for service controller_manager/switch_controller
+[INFO] [1757608115.732347, 0.000000]: Controller Spawner: Waiting for service controller_manager/unload_controller
+[INFO] [1757608115.735490, 0.000000]: Loading controller: hc
+[INFO] [1757608115.870073, 0.000000]: Controller Spawner: Loaded controllers: hc
+[INFO] [1757608115.925629, 0.000000]: Started controllers: hc
+[INFO] [1757608291.881109, 99.620000]: Shutting down spawner. Stopping and unloading controllers...
+[INFO] [1757608291.897599, 99.624000]: Stopping all controllers...
+[INFO] [1757608113.754472, 0.000000]: Controller Spawner: Waiting for service controller_manager/load_controller
+[INFO] [1757608115.914212, 0.000000]: Controller Spawner: Waiting for service controller_manager/switch_controller
+[INFO] [1757608115.919461, 0.000000]: Controller Spawner: Waiting for service controller_manager/unload_controller
+[INFO] [1757608115.924444, 0.000000]: Loading controller: joint_state_controller
+[INFO] [1757608115.947161, 0.022000]: Controller Spawner: Loaded controllers: joint_state_controller
+[INFO] [1757608115.958963, 0.037000]: Started controllers: joint_state_controller
+[INFO] [1757608291.880839, 99.620000]: Shutting down spawner. Stopping and unloading controllers...
+[INFO] [1757608291.882228, 99.620000]: Stopping all controllers...
+
+auto-starting new master
+[1mprocess[master]: started with pid [46949][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/etudiant/Bureau/3ASRI-ProjetIntegration/src/hc10_moveit_config/launch/demo_gazebo.launch http://localhost:11311
+[1msetting /run_id to 5b75aefa-8f2c-11f0-8ed9-37ebe15fe2ee[0m
+[1mprocess[rosout-1]: started with pid [46959][0m
+started core service [/rosout]
+[1mprocess[gazebo-2]: started with pid [46966][0m
+[1mprocess[gazebo_gui-3]: started with pid [46969][0m
+[1mprocess[spawn_gazebo_model-4]: started with pid [46974][0m
+[1mprocess[gazebo_controller_spawner-5]: started with pid [46977][0m
+[1mprocess[controller_spawner-6]: started with pid [46978][0m
+[1mprocess[move_group-7]: started with pid [46981][0m
+[1mprocess[rviz_pp153_vm_46939_6739306063880080205-8]: started with pid [46982][0m
+[1mprocess[spawn_cylinder-9]: started with pid [46983][0m
+[1m[spawn_gazebo_model-4] process has finished cleanly
+log file: /home/etudiant/.ros/log/5b75aefa-8f2c-11f0-8ed9-37ebe15fe2ee/spawn_gazebo_model-4*.log[0m
+[1m[spawn_cylinder-9] process has finished cleanly
+log file: /home/etudiant/.ros/log/5b75aefa-8f2c-11f0-8ed9-37ebe15fe2ee/spawn_cylinder-9*.log[0m
+[rviz_pp153_vm_46939_6739306063880080205-8] killing on exit
+[move_group-7] killing on exit
+[gazebo_controller_spawner-5] killing on exit
+[controller_spawner-6] killing on exit
+[gazebo_gui-3] killing on exit
+[gazebo-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
