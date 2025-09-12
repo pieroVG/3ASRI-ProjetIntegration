@@ -31,7 +31,7 @@ class RobotController:
         self.move_group = moveit_commander.MoveGroupCommander("hc10_arm") 
         
         # Le point d'intérêt initial. Il sera maintenant modifiable.
-        self.look_at_point = Point(x=0.3, y=0.0, z=0.0)
+        self.look_at_point = Point(x=0.5, y=0.5, z=0.0)
         rospy.loginfo(f"Point d'intérêt 'look_at' initialisé par défaut à x={self.look_at_point.x}, y={self.look_at_point.y}")
 
         # --- Subscribers ---
