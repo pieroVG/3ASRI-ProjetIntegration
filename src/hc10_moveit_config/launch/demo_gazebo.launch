@@ -24,6 +24,6 @@
   <!-- Spawn a Cylinder in Gazebo -->
   <!-- =============================== -->
   <node name="spawn_cylinder" pkg="gazebo_ros" type="spawn_model" output="screen"
-        args="-file $(find hc10_moveit_config)/models/cylinder/model.sdf -sdf -model cylinder -x 0.6 -y 0 -z 0.05"/>
+        args="-file $(find hc10_moveit_config)/models/cylinder/model.sdf -sdf -model cylinder -x 0.05 -y 0.4 -z 0.05"/>
 
 </launch>

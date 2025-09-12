@@ -144,10 +144,6 @@
     <!-- end of link list -->
 
     <!-- joint list -->
-    <joint name="world_prefix" type="fixed">
-      <parent link="world"/>
-      <child link="${prefix}base_link"/>
-    </joint>
     
     <joint name="${prefix}joint_1_s" type="revolute">
       <parent link="${prefix}base_link"/>
