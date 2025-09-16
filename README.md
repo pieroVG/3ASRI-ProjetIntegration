@@ -3,7 +3,7 @@ http://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/set
 
 ### Instruction
 ```
-git clone https://github.com/pieroVG/3ASRI-ProjetIntegration.git
+git clone -b generation_traj https://github.com/pieroVG/3ASRI-ProjetIntegration.git
 cd 3ASRI-ProjetIntegration
 . /opt/ros/noetic/setup.bash
 catkin build
@@ -23,9 +23,13 @@ source devel/setup.bash
 ## Tutoriel pour la génération de trajectoire
 https://moveit.github.io/moveit_tutorials/doc/move_group_python_interface/move_group_python_interface_tutorial.html
 
-
 ## Tutoriel d'intégration MoveIt dans Gazebo
 https://moveit.github.io/moveit_tutorials/doc/gazebo_simulation/gazebo_simulation.html
+
+Lancer le modèle du robot sous gazebo :
+```
+roslaunch hc10_moveit_config demo_gazebo.launch 
+```
 
 ## Tutoriel d'intégration d'un kinect dans l'environnement
 https://moveit.github.io/moveit_tutorials/doc/mesh_filter/mesh_filter_tutorial.html#how-to-add-sensor-to-arm-in-simulation
